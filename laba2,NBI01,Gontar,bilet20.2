@@ -1,0 +1,12 @@
+import math
+def vector_product(a1, b1, c2, d2):
+    return a1 * d2 - b1 * c2
+
+a1 = float(input("Введите координату a1 для вектора A: "))
+b1 = float(input("Введите координату b1 для вектора A: "))
+c2 = float(input("Введите координату c2 для вектора B: "))
+d2 = float(input("Введите координату d2 для вектора B: "))
+
+result = vector_product(a1, b1, c2, d2)
+
+print(f"Векторное произведение векторов A и B: {result}")
